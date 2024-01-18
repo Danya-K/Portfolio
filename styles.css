@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Goudy Old Style Italic';
+}
+
+@font-face {
+    font-family: 'Goudy Old Style Italic'; 
+    src: url('fonts/Goudy\ Old\ Style\ Italic.woff2') format('woff2'),
+         url('fonts/Goudy\ Old\ Style\ Italic.woff') format('woff');
+}
+
+.logo {
+    margin-top: 1vh;
+    width: 8vw;
+    height: 10vh;
+    display: inline-block;
+}
+
+.header_logo {
+    display: block;
+    margin: -12vh 0 auto; 
+    text-align: center; 
+    color: white;
+    border: 3px solid black;
+    background-color: black;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.skills_list {
+    list-style: none;
+    padding: 0; 
+    font-size: 24px;
+    margin-left: 23vw;
+    margin-top: 2vh;
+}
+
+.skills_list li {
+    display: inline;
+    margin-right: 10px; 
+}
+
+.skills_list li a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.searchbar {
+    position: absolute;
+    top: 14vh;
+    left: 85vw;
+    width: 1.4vw;
+    height: 3vh;
+    background-color: rgb(193, 193, 193);
+    border: 3px solid rgb(193, 193, 193);
+    border-radius: 20px;
+    padding-left: 0.3vw;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+    padding-right: 11vw;
+}
+
+.hero {
+    margin-left: 0.5vw;
+    width:98vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.header_hero {
+    position: absolute;
+    top: 80vh;
+    left: 7vw;
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.learning_outcomes {
+    position: absolute;
+    top: 100vh;
+    left: 3vw;
+    font-weight: lighter;
+}
+
+.learning_outcomes a {
+    text-decoration: underline;
+    color: white;
+    font-size: 35px;
+    display: inline-block; 
+    margin-right: 60px; 
+}
+
+.skills {
+    width: 47.9vw;
+    height: 100vh;
+    margin-left: 1vw;
+}
+
+.skills_link_1 {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 70px;
+    top: 200vh;
+    left: 5vw;
+}
+
+.skills_link_2 {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 70px;
+    top: 200vh;
+    left: 55vw;
+}
+
+.skills_link_1  a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.skills_items_header {
+    font-size: 35px;
+    text-decoration: underline;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 1vh;
+    color: black;
+}
+
+.skills_items_header a {
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+ }
+
+.grid-item img {
+    max-width: 100%;
+    height: 80vh;
+    width: 30vw;
+ }
+
+.grid-item p {
+    font-size: 40px;
+    color: white;
+    background-color: rgb(86, 86, 86);
+    margin-top: -0.7vh;
+    margin-right: 1.2vw;
+    margin-left: 1.2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+ }
+
+.grid-item a {
+    text-decoration: none; 
+}
+
+.bottom-container-professional {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.skills_1 {
+    margin-left: 1vw;
+    width: 97vw;
+    height: 90vh;
+}
+
+.skills_link_3 {
+    color: white;
+    text-decoration: none; 
+    position: absolute;
+    top: 60vh;
+    left: 56vw;
+    font-size: 80px;
+}
+
+.skills_link_3 a {
+    text-decoration: none;
+}
+
+.skills_link_4 {
+    color: white;
+    text-decoration: none; 
+    position: absolute;
+    top: 60vh;
+    left: 56vw;
+    font-size: 80px;
+}
+
+.skills_link_4 a {
+    text-decoration: none;
+}
+
+.footer-container {
+    display: flex; 
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.footer_list {
+    padding: 20px; 
+    list-style: none;
+}
+
+.footer_list h2 {
+    font-size: 30px;
+}
+
+.footer_list li {
+    margin: 10px 0;
+}
+
+.footer_list a {
+    text-decoration: none;
+    color: white;
+}
+
+.outcomes_hero {
+    width: 98vw;
+    height: 90vh;
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+}
+
+.outcomes_header_hero {
+    position: absolute;
+    top: 28vh;
+    left: 5vw;
+    color: white;
+    font-weight: lighter;
+    font-size: 100px;
+}
+
+.image-box {
+    margin-left: 1.2vw;
+    width: 30.2vw; 
+    height: 81vh;
+    overflow: hidden; 
+    border: 1px solid black;
+  }
+  
+.image-box img {
+    object-fit: none; 
+    width: 100%; 
+    height: 100%; 
+  }
+
+.skills_list_1 {
+    list-style: none;
+    padding: 0; 
+    font-size: 26px;
+    margin-left: 35vw;
+    margin-top: -4vh;
+}
+
+.skills_list_1 li {
+    display: inline;
+    margin-right: 10px; 
+}
+
+.skills_list_1 li a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.image-box-hero {
+    margin-left: 1vw;
+    padding-bottom: 3vh;
+    width: 97vw; 
+    height: 50vh; 
+    overflow: hidden; 
+}
+
+.image-box-hero img {
+    object-fit: cover; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.learning_outcomes_header_hero {
+    position: absolute;
+    color: white;
+    top: 45vh;
+    left: 65vw;
+    font-size: 70px;
+    font-weight: light;
+    text-shadow: 4px 4px 4px black;
+}
+
+.temporary_images1,
+.temporary_images2,
+.temporary_images3 {
+    display: block;
+    margin-left: 1vw;
+    width: 15vw;
+    height: 20vh;
+    padding-bottom: 5vh;
+    border: 1px solid black;
+    border-radius: 2px;
+    position: relative; 
+    margin-bottom: 2vh;
+}
+
+.temporary_images4 {
+    position: absolute;
+    top: 48vh;
+    left: 19vw;
+    width: 28vw;
+    height: 40vh;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.description_header {
+    font-size: 40px;
+    position: absolute;
+    left: 75%; 
+    top: 23%;
+    transform: translateX(-50%); 
+    bottom: 5px; 
+    white-space: nowrap;
+}
+
+.content {
+    font-size: 25px;
+    position: relative;
+    left: 49%; 
+    top: -70vh;
+    transform: translateX(-50%); 
+    bottom: 0; 
+    width: 50%; 
+    margin: auto; 
+}
+
+.proof_text {
+    position: relative;
+    margin-left: 85vw;
+    margin-top: -60vh;
+}
+
+.proof_link {
+    text-decoration: underline;
+    color: black;
+    margin-left: 1vw;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+ }
+
+.grid-item1 img {
+    max-width: 100%;
+    height: 80vh;
+    width: 10vw;
+ }
+
+.grid-item1 p {
+    font-size: 40px;
+    color: white;
+    background-color: rgb(86, 86, 86);
+    margin-top: -0.7vh;
+    margin-right: 1.2vw;
+    margin-left: 1.2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+ }
+
+.grid-item1 a {
+    text-decoration: none; 
+}
+
+.image-box2 {
+    margin-left: 1.2vw;
+    width: 21.9vw; 
+    height: 60vh; 
+    overflow: hidden; 
+}
+
+.image-box2 img {
+    object-fit: none; 
+    width: 100%; 
+    height: 100%; 
+  }
+
