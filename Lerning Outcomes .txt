@@ -1,0 +1,11 @@
+Lo1:
+ -Group Project
+ -Exercises (from Penny)
+ -Personal Project
+ -Passion Project
+
+lo1: research/concept; prototypes
+lo2: git/documentation; comment structure
+lo3: feedback; iterations
+lo4: research methods(DOT/DD); reflections
+lo5: my personal growth in things i want to be and want to achieve.

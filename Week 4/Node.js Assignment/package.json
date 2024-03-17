@@ -1,0 +1,21 @@
+{
+  "name": "joke",
+  "version": "0.0.1",
+  "description": "what did tree said to donkey. nothing, because it's a tree",
+  "main": "joke.js",
+  "scripts": {
+    "test": "joke"
+  },
+  "repository": {
+    "type": "git",
+    "url": "joke"
+  },
+  "keywords": [
+    "joke"
+  ],
+  "author": "danya",
+  "license": "ISC",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
+}
