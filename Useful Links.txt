@@ -1,0 +1,103 @@
+Free Pictures
+----------------
+www.unsplah.com
+www.pexels.com
+www.pixabay.com
+----------------
+
+
+Picture sources
+----------------
+https://www.istockphoto.com/nl/foto/koken-voedsel-achtergrond-gm1220510467-357407455
+----------------
+
+My Fonts
+----------------
+Goudy Old Style Font
+Old English Text MT
+----------------
+
+Portfolio explanation
+----------------
+For my portfolio I used for the inspiration something that could look like my personal business website. I took this inspiration from when I was brainstorming for my Logotype and 
+i had a talk with the teacher about and we discussed that it would be nice if i am going to have this idea behind my website portfolio story. For the design of the look for the website
+I took some ideas from different clothing brands websites like Hugo Boss, Armani, Gucci and Valentino. As for my Logotype I came with this design idea while brainstorming some different
+designs. At first I got white text with my font on the black circle with moon shape white circle on the right of the text. It reminded of the moon and along with the formal elegant style I 
+am using for my website it looked really cool and fitting. But, the next idea I got I liked more, which is to put not the moon shape figure on the right, but on the left as well so that 
+they make a circle around the logo letters while not touching each other. Those two reminds me of two fazes of the moon and I like the general look they make with the letters in the center. For the website font I am going to use Goudy Old Style Font because I find these font the most representative for myself. I really like the old fachion, eligant, formal and official looking things and for my eye it looks like it fits the best.  
+----------------
+
+
+Persona Templates
+-----------------
+https://thispersondoesnotexist.com
+-----------------
+
+
+W3 Schools Validation
+
+
+Hera Link
+---------
+https://i519553.hera.fhict.nl/portfolio
+
+http://i449856.hera.fhict.nl/other-projects/gta/
+
+https://i519553.hera.fontysict.nl/portfolio/index.html
+---------
+
+
+
+Comapring websites
+-------------------
+I am going to compare Rozetka(ukrainian website) and MediaMarkt(dutch version)
+
+ Both websites had header with almost the same information on it. They have the name on the left, catalogue next to the name, search bar after that, then in ukrainian website you can choose language but in dutch website you can enter your postcode to find the closest shop,
+past this goes similar account and shopping cart buttons. The ukrainian website also has an advertisement of itself in the above header.
+The colour choices is also the same, except ukrainian is green-white-black and dutch is red-white-black.
+ After that goes the body of the website and on the left in ukrainian website you can see all the categories of things they are selling and for dutch one you have to click on button for them to apear. In the middle of the websites they both have Hero with some advertisements of their products, sales and so on. After that goes the categories with pictures on the dutch website and on the Ukrainian one there are some products that are popular right now, products with sales which dutch websites have after categories.
+--------------------
+
+
+
+
+User testing
+-------------------
+ I've asked some of the students to look the Prototype and to hear their opinion and see how they navigate through it. 
+During testing I've asked them to navigate them through the website and see if they are easy to find everything:
+Firstly, I've asked to find a shooting genre from the Home page, they've found it easily, after that they were asked to 
+find the game in the Genre page which they also did easily, after that I've asked them to find a tutorial on that page which 
+was also done without any problem. After that I've assked them to go to another genre section and after that go back to the
+Home page which this time was challenging for them. They weren't been able to find the button until i showed them that the 
+button is the title of the page. That is something that we need to change especially in the About Us page we need to have the 
+button or the section selection after the header. I've also asked them to tell me what do they think about design, was it hard for them
+to find the games, are the pages easy to interact, is the website navigation understandable for you in general. For the design
+they said: overall they like the idea of using GTA styling, but the background image is too much owervelming on the Game choosing 
+page, they suggested make the backgound a simple colour to be able to concentrate on games. Also, on the Home page the buttons to
+choose the genre are too diferent and it is hard to differ the colour of the text from the background pictures. The games could
+have been easyly found by them. The pages are pretty easy to interact they said. The website navigation is understandable except
+for go to the Home page button so we should add it. 
+ We are going what are students would say and then decide what we are going to change and how exactly.
+---------------------
+
+
+
+Content on the CSGO Tutorial
+-------------------
+ All; Updates; Tactics; Grenades; Positions; Recoil; Economics; Console.
+All: everything we have on others put in there.
+Updates: Show few last updates.
+Tactics: Ct/T; Maps; Positions; Grenades.
+Grenades: Ct/T; Maps.
+Positions: Ct/T; Maps.
+Recoil: Ct/T; All of the weapons for that side and general weapons as well.
+Economics: Ct/T; What to buy and when, in which case and for whom.
+Console: Console commands.
+-------------------
+
+
+
+Passwords
+-------------------
+ Tordimzwum2 (519553@student.fontys.nl)
+ 1523406789 (i519553@FontysICT.nl) 

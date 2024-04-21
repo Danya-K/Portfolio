@@ -1,0 +1,247 @@
+body {
+    background-color: black;
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.image-border {
+    position: fixed;
+    left: -1vw;
+    top: -1vh;
+    border: 40px solid;
+    border-image-source: url('/images/tv.jpg');
+    border-image-slice: 159 151 159 151;
+    border-image-width: 100px 100px 100px 100px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch;
+    width: 96vw;
+    height: 90vh;
+    z-index: 3; 
+}
+
+.home {
+    position: fixed;
+    left: 4vw;
+    top: 8vh;
+    width: 92vw; 
+    height: 85vh;
+    z-index: 0; 
+    border-radius: 20px;
+}
+
+.title {
+    z-index: 3;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    font-size: 128px;
+    margin-top: 27vh;
+    margin-left: 5vw;
+    color: rgba(144, 169, 142, 1);
+}
+
+.button1 {
+    z-index: 3;
+    position: fixed;
+    bottom: 7vh; 
+    left: 0vw;
+}
+.on {
+    font-family:monospace;
+    font-size: 32px;
+    color: rgba(164, 164, 164, 1);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 0vw;
+    letter-spacing: 3px;
+}
+
+.off {
+    font-family:monospace;
+    font-size: 32px;
+    color: rgba(164, 164, 164, 1);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 0vw;
+}
+#powerButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(112, 90, 59);
+    color: white;
+    border: 2px solid black;
+    border-radius: 50%; 
+    cursor: pointer;
+    width: 50px; 
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#powerButton:hover {
+    background-color: rgba(112, 90, 59, 0.824);
+}
+
+
+
+.button2-3 {
+    z-index: 3;
+    position: fixed;
+    top: 94vh; 
+    left: 40vw; 
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+}
+
+.work {
+    font-family: monospace;
+    font-size: 32px;
+    color: rgba(164, 164, 164, 1);
+    margin-top: 0vh;
+    margin-right: 0.7vw;
+    letter-spacing: 1px; 
+}
+.about {
+    font-family: monospace;
+    font-size: 32px;
+    color: rgba(164, 164, 164, 1);
+    margin-top: 0vh;
+    margin-left: 0vw;
+    letter-spacing: 1px; 
+}
+
+#work-page,
+#about-page {
+    margin-right: 10px; 
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(112, 90, 59);
+    color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px; 
+    height: 40px;
+}
+
+#work-page:hover,
+#about-page:hover {
+    background-color: rgba(112, 90, 59, 0.824);
+}
+
+.greenscreen {
+    position: fixed;
+    left: 4vw;
+    top: 8vh;
+    width: 92vw; 
+    height: 85vh;
+    z-index: 0; 
+    border-radius: 20px;
+}
+
+.work-choice a {
+    z-index: 3;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    font-size: 128px; 
+    top: 35vh; 
+    margin-left: 20vw; 
+    color: rgba(144, 169, 142, 1);
+    text-decoration: none;
+}
+
+.pic-proof-about {
+    z-index: 2;
+    position: relative;
+    width: 25vw;
+    height: 70vh;
+    top: 15vh;
+    left: 15vw;
+}
+.hl-proof-about {
+    z-index: 2;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    color: rgba(144, 169, 142, 1);
+    font-size: 64px; 
+    left: 57vw;
+    bottom: 60vh;
+}
+.p-proof-about {
+    z-index: 2;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    color: rgba(144, 169, 142, 1);
+    font-size: 24px;
+    left: 43vw;
+    bottom: 63vh;
+    line-height: 1.2;
+    height: 0vh;
+    width: 47vw;
+}
+
+.pic-proof{
+    z-index: 2;
+    position: relative;
+    width: 30vw;
+    height: 40vh;
+    top: 5vh;
+    left: 7vw;
+    line-height: 1.9;
+}
+.hl-proof {
+    z-index: 2;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    color: rgba(144, 169, 142, 1);
+    font-size: 64px; 
+    left: 54vw;
+    bottom: 27vh;
+}
+.p-proof {
+    z-index: 2;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    color: rgba(144, 169, 142, 1);
+    font-size: 24px;
+    left: 48vw;
+    top: -30vh;
+    line-height: 1.2;
+    height: 100vh; 
+    width: 47vw;
+}
+
+.pic-proof-photos {
+    z-index: 2;
+    position: relative;
+    width: 25vw;
+    height: 70vh;
+    top: 5vh;
+    left: 9vw;
+    line-height: 1.9;
+}
+
+.p-proof-group-logo {
+    z-index: 2;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    color: rgba(144, 169, 142, 1);
+    font-size: 24px;
+    left: 48vw;
+    top: -30vh;
+    line-height: 1.2;
+    height: 250vh; 
+    width: 47vw;
+}
+
+.growth {
+    z-index: 2;
+    position: relative;
+    top: 90vh;
+}
+
+.future-itteration-1 {
+    z-index: 2;
+    position: relative;
+    top: 90vh;
+}

@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'VCR OSD Mono';
+    src: url('fonts/VCR-OSD-Mono.woff2') format('woff2'),
+         url('fonts/VCR-OSD-Mono.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Squada One';
+    src: url('fonts/Squada-One.woff2') format('woff2'),
+         url('fonts/Squada-One.woff') format('woff'); 
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set initial background color to black */
+}
+
+.tv {
+    position: relative;
+    height: 100vh; /* Set the height of the TV container to fill the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-image-slice: 10;
+    height: 100%;
+    z-index: -1; /* Ensure the background image is behind other content */
+}
+
+.content {
+    position: absolute;
+    top: 10vh; 
+    left: 10vw; 
+    color: rgba(144, 169, 142, 1);
+    z-index: 1;
+}
+
+.title {
+    font-family: 'VCR OSD Mono';
+    font-size: 128px;
+    margin-top: 18vh;
+    margin-left: 2vw;
+}
+
+.on {
+    font-family:monospace;
+    font-size: 32px;
+    color: rgba(164, 164, 164, 1);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 0vw;
+    letter-spacing: 3px;
+}
+
+.off {
+    font-family:monospace;
+    font-size: 32px;
+    color: rgba(164, 164, 164, 1);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 0vw;
+}
+
+.button1 {
+    position: absolute;
+    bottom: 7vh; /* Adjust as needed */
+    left: 2vw;
+}
+
+#powerButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(112, 90, 59);
+    color: white;
+    border: 2px solid black;
+    border-radius: 50%; /* Make the button circular */
+    cursor: pointer;
+    width: 50px; /* Set width and height to ensure it's a circle */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#powerButton:hover {
+    background-color: rgba(112, 90, 59, 0.824);
+}
+
+/* Style for when the website is turned off */
+.tv.off .content {
+    display: none;
+}
+
+
+.button2-3 {
+    position: absolute;
+    top: 5vh; /* Adjust as needed to move the buttons higher */
+    left: 2vw; /* Adjust as needed to move the buttons to the left */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start (left) of the container */
+}
+
+.work, .about {
+    font-family: monospace;
+    font-size: 32px;
+    color: rgba(164, 164, 164, 1);
+    margin-top: 0vh;
+    margin-left: 0vw;
+    letter-spacing: 1px; /* Adjust the value as needed */
+}
+
+#work-page, #about-page {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(112, 90, 59);
+    color: white;
+    border: 2px solid black;
+    border-radius: 50%; /* Make the button circular */
+    cursor: pointer;
+    width: 50px; /* Set width and height to ensure it's a circle */
+    height: 50px;
+    margin: 10px 0; /* Adjust spacing between buttons and paragraphs */
+}
+
+#work-page:hover, #about-page:hover {
+    background-color: rgba(112, 90, 59, 0.824);
+}
+
