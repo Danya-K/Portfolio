@@ -150,6 +150,7 @@ body {
     text-decoration: none;
 }
 
+/* Styling for the pic-proof-about section */
 .pic-proof-about {
     z-index: 2;
     position: relative;
@@ -158,6 +159,8 @@ body {
     top: 15vh;
     left: 15vw;
 }
+
+/* Styling for the hl-proof-about section */
 .hl-proof-about {
     z-index: 2;
     position: relative;
@@ -167,6 +170,8 @@ body {
     left: 57vw;
     bottom: 60vh;
 }
+
+/* Styling for the p-proof-about section */
 .p-proof-about {
     z-index: 2;
     position: relative;
@@ -180,7 +185,8 @@ body {
     width: 47vw;
 }
 
-.pic-proof{
+/* Styling for the pic-proof section */
+.pic-proof {
     z-index: 2;
     position: relative;
     width: 30vw;
@@ -189,6 +195,8 @@ body {
     left: 7vw;
     line-height: 1.9;
 }
+
+/* Styling for the hl-proof section */
 .hl-proof {
     z-index: 2;
     position: relative;
@@ -198,6 +206,8 @@ body {
     left: 54vw;
     bottom: 27vh;
 }
+
+/* Styling for the p-proof section */
 .p-proof {
     z-index: 2;
     position: relative;
@@ -211,6 +221,7 @@ body {
     width: 47vw;
 }
 
+/* Styling for the pic-proof-photos section */
 .pic-proof-photos {
     z-index: 2;
     position: relative;
@@ -221,6 +232,7 @@ body {
     line-height: 1.9;
 }
 
+/* Styling for the p-proof-group-logo section */
 .p-proof-group-logo {
     z-index: 2;
     position: relative;
@@ -234,14 +246,20 @@ body {
     width: 47vw;
 }
 
+/* Styling for the growth section */
 .growth {
     z-index: 2;
     position: relative;
     top: 90vh;
 }
 
+/* Styling for the future-itteration-1 section */
 .future-itteration-1 {
     z-index: 2;
     position: relative;
     top: 90vh;
+}
+
+.proof-container a {
+    z-index: 4;
 }
