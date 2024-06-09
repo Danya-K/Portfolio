@@ -1,0 +1,238 @@
+/* Import the 'Outfit' font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+/* Ensure no horizontal scrolling */
+html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Set width to 100% */
+}
+
+/* Apply font-family and reset margin and padding */
+body {
+    font-family: 'Outfit', sans-serif; /* Use 'Outfit' font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for the header */
+.header {
+    position: fixed; /* Fix the header at the top */
+    top: 0; /* Align it to the top */
+    left: -170px; /* Move it slightly to the left */
+    width: 100%; /* Full width */
+    padding: 20px 10%; /* Padding around the header */
+    background: transparent; /* Transparent background */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    z-index: 2; /* Ensure it is above other elements */
+}
+
+/* Style for the logo */
+.logo {
+    position: relative; /* Relative positioning */
+    left: 70px; /* Move it to the right */
+    font-size: 25px; /* Font size */
+    color: black; /* Text color */
+    text-decoration: none; /* No underline */
+    font-weight: 600; /* Bold font weight */
+}
+
+/* Style for navbar links */
+.navbar a {
+    display: inline-block; /* Inline block elements */
+    font-size: 25px; /* Font size */
+    color: black; /* Text color */
+    text-decoration: none; /* No underline */
+    font-weight: 500; /* Medium font weight */
+    margin-left: 35px; /* Space between links */
+    transition: .3s; /* Smooth transition on hover */
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    color: #28a745; /* Green color on hover */
+}
+
+/* Style for the footer */
+.footer {
+    display: flex; /* Flexbox layout */
+    justify-content: space-around; /* Space around items */
+    align-items: flex-start; /* Align items to the top */
+    padding: 7rem 0; /* Padding top and bottom */
+    color: #000; /* Text color */
+}
+
+/* Style for sections within the footer */
+.footer-section {
+    flex: 1; /* Take equal space */
+    text-align: left; /* Left align text */
+    margin-left: 5rem; /* Margin on the left */
+}
+
+/* Style for footer section headers */
+.footer-section h3 {
+    margin: 0 0 1rem 0; /* Margin bottom */
+    font-size: 1.25rem; /* Font size */
+    font-weight: 700; /* Bold font weight */
+}
+
+/* Style for footer text, list items, and links */
+.footer-section p, .footer-section li, .footer-section a {
+    font-size: 1rem; /* Font size */
+    font-weight: 400; /* Regular font weight */
+    margin: 0.5rem 0; /* Margin top and bottom */
+    color: #000; /* Text color */
+    text-decoration: none; /* No underline */
+}
+
+/* Remove list style and padding for unordered lists */
+.footer-section ul {
+    list-style: none; /* No bullet points */
+    padding: 0; /* No padding */
+}
+
+/* Underline links on hover */
+.footer-section ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Style for the container */
+.container {
+    display: flex; /* Flexbox layout */
+    justify-content: flex-start; /* Align items to the start */
+    align-items: flex-start; /* Align items to the start */
+    margin-left: 700px; /* Move container to the right */
+    margin-top: 100px; /* Move container down */
+}
+
+/* Style for headers */
+h1 {
+    font-size: 52px; /* Font size */
+    margin-bottom: 20px; /* Space below header */
+    margin-left: -100px; /* Move header to the left */
+}
+
+/* Style for answer section */
+.answers {
+    display: flex; /* Flexbox layout */
+    margin-left: 50px; /* Move answers to the right */
+}
+
+/* Style for answer columns */
+.answer-column {
+    flex: 1; /* Take equal space */
+    margin-right: 0px; /* No margin on the right */
+    margin-left: -200px; /* Move column to the left */
+}
+
+/* Style for individual answer boxes */
+.answer-box {
+    font-size: 24px; /* Font size */
+    background-color: rgba(217, 217, 217, 0.304); /* Light grey background */
+    margin-right: -100px; /* Move to the left */
+    width: 300px; /* Width of the box */
+    padding: 20px; /* Padding inside the box */
+    border: 1px solid #686868; /* Border color and width */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 40px; /* Space below each box */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Style for answer input box */
+.answer-input {
+    font-size: 24px; /* Font size */
+    background-color: rgba(217, 217, 217, 0.304); /* Light grey background */
+    margin-bottom: 40px; /* Space below the input box */
+    padding: 20px; /* Padding inside the box */
+    width: 900px; /* Width of the input box */
+    border: 1px solid #686868; /* Border color and width */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Style for labels inside the answer input box */
+.answer-input label {
+    display: block; /* Make the label a block-level element */
+    margin-bottom: 10px; /* Add space below the label */
+}
+
+/* Style for text input fields */
+.answer-input input[type="text"] {
+    width: 700px; /* Adjust the width of the input field */
+}
+
+/* Style for the button container */
+.buttons {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Ensure buttons are spread out */
+    margin-top: 20px; /* Space above the buttons */
+    width: 100%; /* Ensure buttons take full width of container */
+}
+
+/* Style for the back button */
+.back-button {
+    padding: 10px 30px; /* Increase padding to make the button bigger */
+    border: 2px solid rgba(143, 143, 143, 1); /* Set border color and width */
+    border-radius: 50px; /* Make the border round */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: transparent; /* Make the background transparent */
+    color: rgba(143, 143, 143, 1); /* Set text color */
+    font-size: 20px; /* Increase font size */
+    text-align: center; /* Center the text */
+    margin-left: -200px; /* Move back button to the left */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style for the next button */
+.next-button {
+    padding: 10px 30px; /* Increase padding to make the button bigger */
+    border: 2px solid #28a745; /* Set border color and width */
+    border-radius: 50px; /* Make the border round */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #28a745; /* Green background color */
+    color: white; /* Set text color */
+    font-size: 20px; /* Increase font size */
+    text-align: center; /* Center the text */
+    margin-right: -70px; /* Move next button to the right */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style for the next button inside an input box */
+.next-button-input {
+    padding: 10px 30px; /* Increase padding to make the button bigger */
+    border: 2px solid #28a745; /* Set border color and width */
+    border-radius: 50px; /* Make the border round */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #28a745; /* Green background color */
+    color: white; /* Set text color */
+    font-size: 20px; /* Increase font size */
+    text-align: center; /* Center the text */
+    margin-right: 90px; /* Move next button to the right */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style for the selected answer */
+.answer-selected {
+    background-color: #28a745 !important; /* Green background color */
+    color: #fff !important; /* White text color */
+}
+
+/* Adjust margin for the second answer column */
+.answer-column:nth-child(2) {
+    margin-left: 200px; /* Move column to the right */
+}
+
+/* Adjust margin for the fourth answer column */
+.answer-column:nth-child(4) {
+    margin-left: 200px; /* Move column to the right */
+}
+
+/* Style for SVG elements in the question section */
+.question-svg {
+    position: absolute; /* Absolute positioning */
+    z-index: -1; /* Place behind other elements */
+    width: fit-content; /* Adjust width to fit content */
+}

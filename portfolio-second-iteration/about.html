@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Image Border Slicing</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
+</head>
+<body>
+    <!-- Container for the image border -->
+    <div class="image-border"></div>
+    <!-- Image with green screen effect -->
+    <img class="greenscreen" src="images/greenscreen.gif">
+    <!-- Container for the power button -->
+    <div class="button1">
+        <!-- Text for "ON" state -->
+        <p class="on">ON</p>
+        <!-- Power button -->
+        <button id="powerButton" onclick="toggleScreen()"></button>
+        <!-- Text for "OFF" state -->
+        <p class="off">OFF</p>
+    </div>
+    <!-- Container for work and about buttons -->
+    <div class="button2-3">
+        <!-- Text for "Work" -->
+        <p class="work">Work</p>
+        <!-- Button to go to work page -->
+        <button id="work-page" onclick="location.href='work.html'"></button>
+        <!-- Button to go to about page -->
+        <button id="about-page" onclick="location.href='about.html'"></button>
+        <!-- Text for "About" -->
+        <p class="about">About</p>
+    </div>
+    <!-- Image and text for the about section -->
+    <img class="pic-proof-about" src="images/profile.jpg">
+    <h1 class="hl-proof-about">About Me</h1>
+    <!-- Paragraph about the person -->
+    <p class="p-proof-about">
+        My name is Danya Korovianskyi and I am a Media Design Student at Fontys. In the future I want to become game designer/developer. My main hobbies are coding and 3d modelling which I 
+        enjoy doing in my free time. This Portfolio is made using HTML/CSS but the design choices I made is described on the Work page, check it out!
+    </p>  
+
+    <!-- JavaScript to toggle the screen -->
+    <script>
+        // Function to toggle the screen
+        function toggleScreen() {
+            var gif = document.querySelector('.greenscreen');
+
+            // Toggle visibility
+            gif.style.display = gif.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>

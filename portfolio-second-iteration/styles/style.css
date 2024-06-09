@@ -1,0 +1,377 @@
+@import url('https://fonts.cdnfonts.com/css/vcr-osd-mono');
+
+/* Apply the 'VCR OSD Mono' font to all elements */
+* {
+    font-family: 'VCR OSD Mono', sans-serif;
+}
+
+body {
+    background-color: black; /* Set background color of the body */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    font-family: 'VCR OSD Mono', sans-serif; /* Set font family for the body */
+}
+
+/* Styling for the image border */
+.image-border {
+    position: fixed;
+    left: -1vw;
+    top: -1vh;
+    border: 40px solid;
+    border-image-source: url('../images/tv.jpg'); /* Image source for the border */
+    border-image-slice: 159 151 159 151; /* Slicing the border image */
+    border-image-width: 100px 100px 100px 100px; /* Width of the border image */
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: stretch stretch; /* Stretching the border image */
+    width: 96vw; /* Width of the border */
+    height: 90vh; /* Height of the border */
+    z-index: 3; /* Z-index for layering */
+    pointer-events: none; /* Disable pointer events */
+}
+
+/* Styling for the home section */
+.home {
+    position: fixed;
+    left: 4vw;
+    top: 8vh;
+    width: 92vw; /* Width of the home section */
+    height: 85vh; /* Height of the home section */
+    z-index: 0; /* Z-index for layering */
+    border-radius: 20px; /* Rounded corners */
+}
+
+/* Styling for the title */
+.title {
+    z-index: 3;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    font-size: 128px;
+    margin-top: 27vh; /* Top margin */
+    margin-left: 5vw; /* Left margin */
+    color: rgba(144, 169, 142, 1); /* Text color */
+}
+
+/* Styling for button1 */
+.button1 {
+    z-index: 3;
+    position: fixed;
+    bottom: 7vh; /* Position from the bottom */
+    left: 0vw; /* Position from the left */
+}
+
+/* Styling for 'on' text */
+.on {
+    font-family: monospace;
+    font-size: 32px;
+    color: rgba(164, 164, 164, 1); /* Text color */
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 0vw;
+    letter-spacing: 3px; /* Space between letters */
+}
+
+/* Styling for 'off' text */
+.off {
+    font-family: monospace;
+    font-size: 32px;
+    color: rgba(164, 164, 164, 1); /* Text color */
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 0vw;
+}
+
+/* Styling for the power button */
+#powerButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(112, 90, 59); /* Button background color */
+    color: white; /* Button text color */
+    border: 2px solid black; /* Button border */
+    border-radius: 50%; /* Circular button */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 50px; /* Width of the button */
+    height: 50px; /* Height of the button */
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+/* Hover effect for the power button */
+#powerButton:hover {
+    background-color: rgba(112, 90, 59, 0.824); /* Change background color on hover */
+}
+
+/* Styling for the container holding buttons 2 and 3 */
+.button2-3 {
+    z-index: 3;
+    position: fixed;
+    top: 94vh; /* Position from the top */
+    left: 40vw; /* Position from the left */
+    display: flex; /* Flexbox for alignment */
+    flex-direction: row; /* Horizontal alignment */
+    align-items: flex-start; /* Align items to the start */
+}
+
+/* Styling for 'work' text */
+.work {
+    font-family: monospace;
+    font-size: 32px;
+    color: rgba(164, 164, 164, 1); /* Text color */
+    margin-top: 0vh;
+    margin-right: 0.7vw;
+    letter-spacing: 1px; /* Space between letters */
+}
+
+/* Styling for 'about' text */
+.about {
+    font-family: monospace;
+    font-size: 32px;
+    color: rgba(164, 164, 164, 1); /* Text color */
+    margin-top: 0vh;
+    margin-left: 0vw;
+    letter-spacing: 1px; /* Space between letters */
+}
+
+/* Styling for the work page button */
+#work-page {
+    margin-right: 10px; 
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(112, 90, 59); /* Button background color */
+    color: white; /* Button text color */
+    border: 2px solid black; /* Button border */
+    border-radius: 50%; /* Circular button */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 40px; /* Width of the button */
+    height: 40px; /* Height of the button */
+}
+
+/* Hover effect for the work page button */
+#work-page:hover {
+    background-color: rgba(112, 90, 59, 0.824); /* Change background color on hover */
+}
+
+/* Styling for the about page button */
+#about-page {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(112, 90, 59); /* Button background color */
+    color: white; /* Button text color */
+    border: 2px solid black; /* Button border */
+    border-radius: 50%; /* Circular button */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 40px; /* Width of the button */
+    height: 40px; /* Height of the button */
+}
+
+/* Hover effect for the about page button */
+#about-page:hover {
+    background-color: rgba(112, 90, 59, 0.824); /* Change background color on hover */
+}
+
+/* Styling for the green screen */
+.greenscreen {
+    position: fixed;
+    left: 4vw;
+    top: 8vh;
+    width: 92vw; /* Width of the green screen */
+    height: 85vh; /* Height of the green screen */
+    z-index: 0; /* Z-index for layering */
+    border-radius: 20px; /* Rounded corners */
+}
+
+/* Styling for the work-choice links */
+.work-choice a {
+    z-index: 3;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    font-size: 128px;
+    top: 20vh;
+    margin-left: 20vw;
+    color: rgba(144, 169, 142, 1); /* Text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Styling for the sections container */
+.sections {
+    display: flex; /* Flexbox for alignment */
+    flex-wrap: wrap; /* Wrap items to the next line */
+    justify-content: flex-start; /* Align items to the start of the container */
+    margin-left: 10vw;
+    margin-top: 25vh;
+}
+
+/* Styling for the section links */
+.sections a {
+    z-index: 3;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    font-size: 50px;
+    color: rgba(144, 169, 142, 1); /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    flex-basis: 30%; /* Width of each link */
+    margin: 10px; /* Margin around each link */
+}
+
+/* Ensure first three items take up the same width */
+.sections a:nth-child(1),
+.sections a:nth-child(2),
+.sections a:nth-child(3) {
+    flex-basis: 30%;
+}
+
+/* Ensure the last two items take up the same width */
+.sections a:nth-child(4),
+.sections a:nth-child(5) {
+    flex-basis: 30%;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+/* Pseudo-element to ensure the last two items are centered */
+.sections::after {
+    content: "";
+    flex-basis: 30%;
+}
+
+/* Styling for the pic-proof-about section */
+.pic-proof-about {
+    z-index: 2;
+    position: relative;
+    width: 25vw; /* Width of the section */
+    height: 70vh; /* Height of the section */
+    top: 15vh;
+    left: 15vw;
+}
+
+/* Styling for the hl-proof-about section */
+.hl-proof-about {
+    z-index: 2;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    color: rgba(144, 169, 142, 1); /* Text color */
+    font-size: 64px;
+    left: 57vw;
+    bottom: 60vh;
+}
+
+/* Styling for the p-proof-about section */
+.p-proof-about {
+    z-index: 2;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    color: rgba(144, 169, 142, 1); /* Text color */
+    font-size: 24px;
+    left: 43vw;
+    bottom: 63vh;
+    line-height: 1.2; /* Line height */
+    height: 0vh;
+    width: 47vw;
+}
+
+/* Styling for the pic-proof section */
+.pic-proof {
+    z-index: 2;
+    position: relative;
+    display: block;
+    width: 50%; /* Width of the section */
+    height: 40%; /* Height of the section */
+    margin-bottom: 10px;
+    top: 5vh;
+    left: 7vw;
+    line-height: 1.9; /* Line height */
+}
+
+/* Styling for the hl-proof section */
+.hl-proof {
+    z-index: 2;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    color: rgba(144, 169, 142, 1); /* Text color */
+    font-size: 64px;
+    left: 54vw;
+    bottom: 80vh;
+}
+
+/* Styling for the p-proof section */
+.p-proof {
+    z-index: 2;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    color: rgba(144, 169, 142, 1); /* Text color */
+    font-size: 24px;
+    left: 48vw;
+    top: -75vh;
+    line-height: 1.2; /* Line height */
+    height: 100vh;
+    width: 47vw;
+}
+
+/* Styling for the pic-proof-photos section */
+.pic-proof-photos {
+    z-index: 2;
+    position: relative;
+    display: block;
+    width: 50%; /* Width of the section */
+    height: 70%; /* Height of the section */
+    margin-bottom: 10px;
+    top: 5vh;
+    left: 7vw;
+    line-height: 1.9; /* Line height */
+}
+
+/* Styling for the p-proof-group-logo section */
+.p-proof-group-logo {
+    z-index: 2;
+    position: relative;
+    font-family: 'VCR OSD Mono';
+    color: rgba(144, 169, 142, 1); /* Text color */
+    font-size: 24px;
+    left: 48vw;
+    top: -75vh;
+    line-height: 1.2; /* Line height */
+    height: 250vh;
+    width: 47vw;
+}
+
+/* Styling for the growth section */
+.growth {
+    z-index: 2;
+    position: relative;
+    top: 90vh;
+}
+
+/* Styling for the future-iteration-1 section */
+.future-itteration-1 {
+    z-index: 2;
+    position: relative;
+    top: 90vh;
+}
+
+/* Styling for links within the proof-container */
+.proof-container a {
+    z-index: 4;
+}
+
+/* Styling for joke-lo2 */
+.joke-lo2 {
+    margin-top: 50vh;
+}
+
+/* Styling for the pic-proof-joke section */
+.pic-proof-joke {
+    z-index: 2;
+    position: relative;
+    display: block;
+    width: 50%; /* Width of the section */
+    height: 40%; /* Height of the section */
+    margin-bottom: 10px;
+    bottom: 20vh;
+    left: 7vw;
+    line-height: 1.9; /* Line height */
+}
+
+/* Styling for contract-lo4 */
+.contract-lo4 {
+    margin-top: 20vh;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Image Border Slicing</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
+</head>
+<body>
+    <!-- Image border element -->
+    <div class="image-border" id="imageBorder">
+        <!-- Image with class greenscreen -->
+        <img class="greenscreen" id="greenscreenGif" src="images/greenscreen.gif">
+    </div>
+    <!-- Button 1 -->
+    <div class="button1">
+        <!-- ON text -->
+        <p class="on">ON</p>
+        <!-- Link to toggle the gif -->
+        <a href="#" id="toggleLink">
+            <!-- Power button -->
+            <button id="powerButton"></button>
+        </a>
+        <!-- OFF text -->
+        <p class="off">OFF</p>
+    </div>
+    <!-- Button 2 and 3 -->
+    <div class="button2-3">
+        <!-- Work text -->
+        <p class="work">Work</p>
+        <!-- Button for work page -->
+        <button id="work-page" onclick="location.href='work.html'"></button>
+        <!-- Button for about page -->
+        <button id="about-page" onclick="location.href='about.html'"></button>
+        <!-- About text -->
+        <p class="about">About</p>
+    </div>
+    <!-- Work choice links -->
+    <div class="work-choice">
+        <a href="index.html">Home</a>
+        <a href="feed.html">Feed</a>
+    </div>
+    <!-- Sections of Learning Outcomes-->
+     <div class="sections">
+        <a href="lo1.html">Learning Outcome 1</a>
+        <a href="lo2.html">Learning Outcome 2</a>
+        <a href="lo3.html">Learning Outcome 3</a>
+        <a href="lo4.html">Learning Outcome 4</a>
+        <a href="lo5.html">Learning Outcome 5</a>
+     </div>
+     <script>
+        // Add an event listener to the element with the ID 'toggleLink'
+        document.getElementById('toggleLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default action of the link (e.g., navigating to a URL)
+            
+            var gif = document.getElementById('greenscreenGif'); // Get the element with the ID 'greenscreenGif'
+            var imageBorder = document.getElementById('imageBorder'); // Get the element with the ID 'imageBorder'
+            
+            // Check if the gif is currently not displayed
+            if (gif.style.display === 'none') {
+                gif.style.display = 'block'; // Display the gif
+                imageBorder.style.backgroundColor = 'transparent'; // Set the background color of the image border to transparent
+            } else {
+                gif.style.display = 'none'; // Hide the gif
+                imageBorder.style.backgroundColor = 'black'; // Set the background color of the image border to black
+            }
+        });
+    </script>
+    
+</body>
+</html>
