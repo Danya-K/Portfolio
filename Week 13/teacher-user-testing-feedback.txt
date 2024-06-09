@@ -1,0 +1,4 @@
+Teacher User Testing Feedback
+ -Change the Sign Up button to more consistent instead of Gradient;
+ -Change Start button to something more clear like Create your Plan;
+ -In the About Us page add description for the Nutrition Plan.

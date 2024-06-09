@@ -25,3 +25,83 @@ Week 4
  Day 3: Continued working on Poster. Asked for Feedback;
  Day 4: Finished Poster;
  Day 5: Worked on filling in Portfolio.
+
+Week 5
+ Day 1: Were introduced to clients. Got first talk with coach about Portfolio. Got Feedback;
+ Day 2: Were introduced to the rest of clients. Choose end client. Worked on mid-fidelity Prototype;
+ Day 3: Finished mid-fidelity Prototype for group;
+ Day 4: Worked on Personal Portfolio. Started creating Paper Prototype;
+ Day 5: Worked on Personal Portfolio. Finished Paper Prototype.
+
+Week 6
+ Day 1: Started working on Mid-Fidelity Prototype. Asked for Feedback for Low-Fidelity Prototype; 
+ Day 2: Worked on Mid-Fidelity Prototype;
+ Day 3: Finished Mid-Fidelity Prototype for my Portfolio.Made an Audio Recording. Generated ideas on what to do for the Project. Asked Client questions needed to start working on implementation. Generated questions for Survey. Asked for Group Feedback;
+ Day 4: Spread Survey. Generated some Low-Fidelity Prototypes for the project website. Started working on Concept Document for Project;
+ Day 5: Weekend.
+
+Week 7
+ Day 1: Started working on Portfolio website;
+ Day 2: Made a POV/HMW excersie;
+ Day 3: Continued working on Concept Design. Created Interview questions;
+ Day 4: Continued working on Concept Design. Made two interviews;
+ Day 5: Finished Concept Doucment.
+
+Week 8
+ Day 1: Asked for feedback on Concept Document. Worked on React Assignment;
+ Day 2: Learned Blender. Asked for Group Feedback on Concept Document. 
+ Day 3: Made React task, reworked Concept Document;
+ Day 4: Continued reworking Concept Document. Asked for Group Feedback;
+ Day 5: Finished Concept Document.
+
+Week 9
+ Day 1: Created  Progressive web app; Asked for Feedback;
+ Day 2: Worked on Portfolio; Asked for Feedback. Got Group Feedback about Concept Document
+ Day 3: Worked on Portfolio;
+ Day 4: Worked on Portfolio;
+ Day 5: Worked on Portfolio.
+
+Week 10
+ Day 1: Worked on Portfolio;
+ Day 2: Texturing, lightning, materials lecture on Blender. Got a Portfolio 2nd Assesment, Received feedback;
+ Day 3: Worked on Group Mid-Fidelity Prototype, made my own version;
+ Day 4: Worked on Group Mid-Fidelity Prototype;
+ Day 5: Worked on Group Mid-Fidelity Prototype.
+
+Week 11
+ Vaccation.
+
+Week 12
+ Day 1: Worked on Portfolio;
+ Day 2: Had a lecture about Blender proper texturing, made a Coke;
+ Day 3: Worked on Group Mid-Fidelity Prototype;
+ Day 4: Worked on Group Mid-Fidelity Prototype;
+ Day 5: Finished Group Mid-Fidelity Prototype.
+
+Week 13
+ Day 1: Made a User Testing for Group Prototype with a student. Made a Database application challenge, asked for feedback;
+ Day 2: Made an exercise where we created a User-Interaction based paper design about shop. Made User Testing with the teacher. Got Group Feedback. Changed Prototype according to Feedback; 
+ Day 3: Finished Mid-Fidelity Group Prototype according to the user testing; Made User Testing for other group; Started working on the Question pages for the group;
+ Day 4: Continued working on Question pages;
+ Day 5: Continued working on Question pages.
+
+Week 14
+ Day 1: Weekend;
+ Day 2: Had a lecture about modifyers and animations in Blender. Created ark and dancing fella. Worked on Questions pages;
+ Day 3: Managed to make Git Lab work. Continued working on Questions Page. Got Personal Feedback for Git Lab;
+ Day 4: Finished the Questions pages;
+ Day 5: Worked on Portfolio.
+
+Week 15
+ Day 1: Had a meeting with client regarding our progress. Worked on Portfolio;
+ Day 2: Started working on Final Presentation;
+ Day 3: Continued working on Final Presentation;
+ Day 4: Continued working on Final Presentation;
+ Day 5: Finished Final Presentation.
+
+Week 16
+ Day 1: Had a Final Presentation;
+ Day 2: Had a lecture about sculpting. Worked on Report Document. Worked on Portfolio;
+ Day 3: Worked on Portfolio;
+ Day 4: Worked on Portfolio;
+ Day 5: Started creating Character for Portfolio. Worked on Portfolio.

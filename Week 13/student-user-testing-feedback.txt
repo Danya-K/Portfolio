@@ -1,0 +1,7 @@
+  Feedback from a user:
+ - Made an indicator that the page is scrollable;
+ - Made text on white so it is not interrupted with colours and lines of baclground;
+ - Make an About button into About Us to clarify what about is;
+ - Make a personal brand for Nutriotn Plan instead of relating it to LiveWall directly;
+ - (Good Advice) Ask client or think of the way on how to implement the chatbot and the topics he will be able to explain and talk about, 
+so the conversation would only be about Nutrition Plan and everything related to it.
