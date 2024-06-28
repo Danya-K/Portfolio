@@ -87,7 +87,7 @@ Week 13
 
 Week 14
  Day 1: Weekend;
- Day 2: Had a lecture about modifyers and animations in Blender. Created ark and dancing fella. Worked on Questions pages;
+ Day 2: Had a lecture about modifiers and animations in Blender. Created ark and dancing fella. Worked on Questions pages;
  Day 3: Managed to make Git Lab work. Continued working on Questions Page. Got Personal Feedback for Git Lab;
  Day 4: Finished the Questions pages;
  Day 5: Worked on Portfolio.
@@ -105,3 +105,24 @@ Week 16
  Day 3: Worked on Portfolio;
  Day 4: Worked on Portfolio;
  Day 5: Started creating Character for Portfolio. Worked on Portfolio.
+
+Week 17
+ Day 1: Continued Sculpting;
+ Day 2: Continued Sculpting;
+ Day 3: Started looking for a stakeholder;
+ Day 4: Continued looking for a stakeholder;
+ Day 5: Continued Sculpting. Found a stakeholder.
+
+Week 18
+ Day 1: Had a Portfolio Assessments;
+ Day 2: Had a lecture about Unreal Engine. Tried to make a small game in Unreal Engine. Started working on Passion Project. Started creating Concept Document for Passion Project. Created Questions for Survey and Interviews;
+ Day 3: Spread the Survey and made an Interviewee;
+ Day 4: Created Persona. Continued to work on Concept Document;
+ Day 5: Continued working on Concept Document.
+
+Week 19
+ Day 1: Made Competitive Analysis. Started working on Low-Fidelity Prototype;
+ Day 2: Finished Low-Fidelity Prototype. Started working on Mid-Fidelity Prototype;
+ Day 3: Had a school ending day;
+ Day 4: Finished Mid-Fidelity Prototype. Showed to client. Updated according to feedback. Finished Concept Document;
+ Day 5: Finished main screen for Portfolio. Finished Portfolio.
