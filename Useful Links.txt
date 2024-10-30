@@ -97,7 +97,4 @@ Console: Console commands.
 
 
 
-Passwords
--------------------
- Tordimzwum2 (519553@student.fontys.nl)
- 1523406789 (i519553@FontysICT.nl) 
+
